@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+   <head>
+      <title>chatos</title>
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <meta charset="utf-8">
+   </head>
+   <body onload="setInterval('updateData()',10)">
+      <div class="header">
+         <h1>chatos</h1>
+      </div>
+      <div id="loginScreen">
+         <h2> Please enter your name:</h2>
+         <input id="userName" />
+         <br><br>
+         <button class="loginButton" , type="button" onclick="endScreenLogin()">
+         <img src="/images/log2.jpg" >
+         </button>
+      </div>
+      <div id="screenDoYouWantToSeeHistoryׂׂ">
+         <h2>Do you want to see chat history?</h2>
+         <br><br>
+         <button class="booleanButton" , type="button" onclick="setWantToSeeHistory(true),ChatLogin()">yes</button>
+         <button class="booleanButton" , type="button" onclick="setWantToSeeHistory(false),ChatLogin()">no</button>
+      </div>
+      <div id="chatScreen">
+         <div class="notificationsWindow">
+            <div id="Participate"></div>
+            <div id=isTyping ></div>
+         </div>
+         <div id="messageWindow"><br><br><br></div>
+         <div id="keyboard"> 
+            <input id="inputMessages" />
+            <button id="send" , type="button" onclick="sendMessageFromTheInput(inputMessages.value)">send</button>
+            <div id="Emoji">
+                <button class="emo" , type="button" onclick="sendEmoji(1)"><img src="/images/emoji/a80.jpg" ></button> 
+                <button class="emo" , type="button" onclick="sendEmoji(2)"><img src="/images/emoji/b80.jpg" ></button> 
+                <button class="emo" , type="button" onclick="sendEmoji(3)"><img src="/images/emoji/c80.png" ></button> 
+                <button class="emo" , type="button" onclick="sendEmoji(4)"><img src="/images/emoji/d80.gif" ></button> 
+                <button class="emo" , type="button" onclick="sendEmoji(5)"><img src="/images/emoji/e80.jpg" ></button> 
+                <button class="emo" , type="button" onclick="sendEmoji(6)"><img src="/images/emoji/f80.jpg" ></button> 
+                <button class="emo" , type="button" onclick="sendEmoji(7)"><img src="/images/emoji/g80.jpg" ></button> 
+                <button class="emo" , type="button" onclick="sendEmoji(8)"><img src="/images/emoji/h80.png" ></button> 
+                <button class="emo" , type="button" onclick="sendEmoji(9)"><img src="/images/emoji/j80.jpg" ></button> 
+            </div>
+         </div>
+      </div>
+      <script src="./index.js"></script>
+   </body>
+</html>
+
+
+
+
+
+

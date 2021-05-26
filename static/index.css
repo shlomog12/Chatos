@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 100px;
+}
+#chatScreen{ 
+    display: none;
+    margin: 10px auto 0 auto;
+    background-image: url('/images/backgraund.jpg');
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-family: Papyrus, Helvetica, Fantasy;
+    background-size: 800px;
+    /* block-size: 400px; */
+    /* margin-bottom: 200px; */
+}
+#loginScreen{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 60px;
+}
+#screenDoYouWantToSeeHistoryׂׂ{
+    display: none;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 60px;
+}
+#userName{
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+    
+    font-size: 150px;
+}
+input{
+    /* font-size: 62px; */
+    font-size: 70px; 
+}
+#send{
+    size: 150px;
+    font-size: 70px;
+    /* background-color: black; */
+}
+.header{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    background-color: black;
+    /* background-size: 400px; */
+}
+#keyboard{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    background-color: black;
+}
+#messageWindow{
+    margin: 300px;
+}
+.notificationsWindow{
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    text-align: left;
+    background-color:papayawhip;
+    color: black;
+}
+#isTyping{
+    margin-bottom: 0px;
+    background-color:rgb(165, 176, 177);
+    
+}
+.booleanButton{
+    font-size: 70px;
+    margin: 100px;
+    margin-top: 0px;
+    background-color: pink;
+}
